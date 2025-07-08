@@ -27,10 +27,10 @@ public class AppTest {
     }
 //    @Test
 //    void testTopScoresAbove70() {
-//    	List<String> exceptedNames = Arrays.asList("Deepak" ,"Smrithi Mv","Sharanya Bk");
+//    	List<String> exceptedNames = Arrays.asList("Smrithi Mv" ,"Deepak","Sharanya Bk");
 //    	
 //    	List<String> topScores = scheduler.topPerformanceQueue.stream()
-//    			.filter(i -> i.getScore() >70).map(Interview::getCandidateName)
+//    			.filter(i -> i.getScore() <70).map(Interview::getCandidateName)
 //    			.sorted().toList();
 //    	
 //    	assertEquals(exceptedNames, topScores);
